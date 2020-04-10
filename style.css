@@ -1,0 +1,48 @@
+body {
+  text-align: center;
+  font-family: monospace;
+}
+
+div.container {
+  background-color: #adaeb3;
+}
+
+form #city {
+  border-radius: 12px;
+  border: none;
+  padding: 2px;
+}
+
+form #btn {
+  background-color: #e96e50;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+a#cur-location {
+  font-size: 8px;
+  margin-left: 5px;
+  color: black;
+}
+
+img#location{
+  width: 10px;
+  margin-top: 4px;
+}
+
+.format {
+  margin-top: 10px;
+}
+
+a#celcius {
+  text-decoration: none;
+  border: 1px solid black;
+  color: #e96e50
+}
+
+a#faren {
+  text-decoration: none;
+  border: 1px solid black;
+  color: #e96e50;
+}

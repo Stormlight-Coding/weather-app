@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Simple Weather app for users location">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Jon Poso">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Simple Weather App</title>
+  </head>
+  <body>
+    <h2>Weather Forecast</h2>
+    <div class="container">
+      <form id="weather-form">
+        <input id="city" type="text" placeholder="Enter a city">
+        <input id="btn" type="submit" value="Search">
+        <img id="location" src="img/location.png" alt=""><a href="#" id="cur-location">Use Current Location</a>
+      </form>
+    </div>
+    <div id="results">
+    </div>
+    <div class="format">
+      <a id="celcius" href="#">C</a>    <a id="faren" href="#">F</a>
+    </div>
+    <script src="js.js" charset="utf-8"></script>
+  </body>
+</html>
